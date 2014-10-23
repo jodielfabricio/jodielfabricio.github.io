@@ -1,0 +1,23 @@
+name: Israel Ribeiro
+markdown: redcarpet
+pygments: true
+
+source: ./source
+destination: ./build
+
+safe: false
+
+exclude: [ .jekyll-assets-cache, Gemfile, Gemfile.lock, Rakefile, vendor ]
+
+# Jekyll Assets
+assets:
+  dirname: assets
+
+  compress:
+    js: uglifier
+    css: sass
+
+  cache: true
+  cachebust: hard
+
+  gzip: [ text/css, application/javascript ]

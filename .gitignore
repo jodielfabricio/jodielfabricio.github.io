@@ -1,0 +1,9 @@
+# Common
+.DS_Store
+
+# Jekyll
+build
+
+# Cache
+.jekyll-assets-cache
+.sasss-cache

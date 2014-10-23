@@ -1,0 +1,30 @@
+@media screen and (max-width: 500px) {
+
+  .avatar {
+    display: block;
+    margin-top: 0;
+  }
+
+  .title {
+    padding-left: 0;
+
+    h1 {
+      font-size: 48px;
+    }
+
+    h2 {
+      font-size: 32px;
+    }
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 799px) {
+
+  .avatar {
+    display: block;
+  }
+
+  .title {
+    padding-left: 0;
+  }
+}
